@@ -1,3 +1,16 @@
+# Docker Learning & Hands-On Projects
+
+This repository documents my hands-on Docker learning journey,
+including containerization, networking, storage, multi-container
+applications, image optimization and container troubleshooting.
+
+The repository contains multiple practical projects that I built
+and tested locally while developing my DevOps and Platform
+Engineering skills.
+
+## Repository Structure
+
+Each folder is a self-contained project with its own README:
 
 ## Docker Topics Covered
 
