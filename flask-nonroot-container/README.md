@@ -8,7 +8,7 @@ non-root user for better security.
 - Test the Flask app locally first (without Docker)
 - Containerize it with a custom Dockerfile
 - Run the container as a non-root user (`appuser`)
-- Expose the app on port `5003`
+- Expose the app on port `5001`
 
 ## 📁 Files
 
