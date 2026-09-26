@@ -1,0 +1,12 @@
+FROM mariadb:11
+
+USER root
+
+RUN mkdir -p /var/lib/mysql && \
+    chown -R 999:0 /var/lib/mysql && \
+    chmod -R g=u /var/lib/mysql
+
+USER 999
+
+EXPOSE 3306
+CMD ["mariadbd"]
