@@ -1,4 +1,0 @@
-DB_ROOT_PASSWORD=redhat
-DB_NAME=mydb
-DB_USER=liban
-DB_PASSWORD=apppassword
