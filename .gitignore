@@ -1,0 +1,7 @@
+# Python
+.venv/
+venv/
+
+# Environment files (secrets)
+.env
+.env.*
