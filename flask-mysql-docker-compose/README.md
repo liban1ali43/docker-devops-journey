@@ -18,7 +18,6 @@ table and exposes a JSON API.
 ├── templates/index.html # Jinja2 users table
 └── .env # local DB credentials (NOT committed)
 
-
 ## Run
 ```bash
 docker compose up -d --build
