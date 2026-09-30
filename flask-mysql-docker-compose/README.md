@@ -8,15 +8,18 @@ table and exposes a JSON API.
 - MySQL 8.0
 - Python 3.11-slim
 - Docker Compose v3.9
-
 ## Layout
 
-├── app.py # Flask app (2 routes)
-├── docker-compose.yml # db + web services
-├── Dockerfile # Flask image
-├── init.sql # creates + seeds users table (runs once)
-├── templates/index.html # Jinja2 users table
-└── .env # local DB credentials (NOT committed)
+```
+.
+├── app.py                # Flask app (2 routes)
+├── docker-compose.yml    # db + web services
+├── Dockerfile            # Flask image
+├── init.sql              # creates + seeds users table (runs once)
+├── templates/
+│   └── index.html        # Jinja2 users table
+└── .env                  # local DB credentials (NOT committed)
+```
 
 ## Run
 ```bash
