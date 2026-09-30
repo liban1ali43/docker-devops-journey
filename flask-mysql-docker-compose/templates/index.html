@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Users from MySQL</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f4f6f8; }
+        h1 { color: #394d62; }
+        table { border-collapse: collapse; width: 60%; background: #fff; }
+        th, td { padding: 10px 15px; border: 1px solid #ddd; text-align: left; }
+        th { background: #3498db; color: white; }
+        tr:nth-child(even) { background: #f9f9f9; }
+    </style>
+</head>
+<body>
+    <h1>📋 Users from MySQL</h1>
+    <table>
+        <tr><th>ID</th><th>Name</th><th>Email</th></tr>
+        {% for u in users %}
+        <tr>
+            <td>{{ u.id }}</td>
+            <td>{{ u.name }}</td>
+            <td>{{ u.email }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
