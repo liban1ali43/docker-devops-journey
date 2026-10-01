@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %} Index Page {% endblock %}
+{% block content %}
+ <h1 style="color: green;">  Welcome to the CoderCo Containers Challenge Application!</h1>
+ <a href="{{ url_for('count') }}" style="text-decoration: none;">
+     <div style="
+          width: 200px;
+          padding: 20px;
+          margin-top: 30px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          text-align: center;
+        ">
+          <h3 style="color: blue;"> visit Redis Count Page</h3>
+ </div>
+</a>
+<a href="{{ url_for('about') }}" style="text-decoration: none;">
+    <div style="
+         width: 200px;
+         padding: 20px;
+         margin-top: 30px;
+         border: 1px solid #ccc;
+         border-radius: 5px;
+         text-align: center;
+       ">
+         <h3 style="color: blueviolet;">About Me</h3>
+    </div>
+</a>
+{% endblock %}

@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block title %} About Me {% endblock %}
+{% block content %}
+<h1 style="color: green;">  About Me</h1>
+<p>
+    Hi, I'm Liban. I'm an IT professional developing my career
+    towards DevOps and Platform Engineering.
+</p>  
+<p>
+     I enjoy building hands-on projects to develop my practical
+    skills in Linux, containers, automation and cloud technologies.
+</p>
+<h2> Skills & Technologies</h2>
+<ul>
+    <li>Linux</li>
+    <li>Containers (Docker, Podman)</li>
+    <li>Container Orchestration (Kubernetes & OpenShift)</li>
+    <li>Python & Flask</li>
+    <li>Cloud Platforms AWS</li>
+    <li>Infrastructure as Code Ansible</li>
+    <li>Git & GitHub</li>
+ </ul>   
+ <h2> About This Project</h2>
+ <p>
+    CoderCo Containers Challenge — Built a multi-container Python Flask
+    application integrated with Redis for visit counting. Used Docker
+    multi-stage builds to optimize the application image and reduce
+    unnecessary runtime dependencies. Configured Nginx as a reverse
+    proxy and load balancer, and used Docker Compose to orchestrate
+    the application and supporting services. Tested the complete
+    environment locally. 
+</p>
+<p>
+    I then containerized the application and Redis and used
+    Docker Compose to run the services together.
+</p>
+
+<p>
+    I tested the application locally and verified that the
+    Flask application could communicate with Redis and maintain
+    the visit counter.
+</p>
+
+<h2>Career Goal</h2>
+
+<p>
+    My goal is to continue developing practical skills in
+    DevOps, Platform Engineering, containers, Kubernetes,
+    OpenShift, automation, CI/CD and cloud technologies while
+    applying my knowledge in a professional environment.
+</p>
+
+ {% endblock %}
